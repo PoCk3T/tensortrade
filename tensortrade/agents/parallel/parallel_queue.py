@@ -1,6 +1,6 @@
-import multiprocessing as mp
+import pathos.multiprocessing as mp
 
-from multiprocessing.queues import Queue
+from pathos.multiprocessing.queues import Queue
 
 
 class SharedCounter(object):

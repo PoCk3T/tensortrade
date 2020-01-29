@@ -1,7 +1,7 @@
 import sys
 import tensorflow as tf
 
-from multiprocessing import Process, Queue
+from pathos.multiprocessing import Process, Queue
 
 from tensortrade.agents import ReplayMemory, DQNTransition
 

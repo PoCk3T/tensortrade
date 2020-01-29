@@ -2,7 +2,7 @@ import sys
 import time
 import numpy as np
 import tensorflow as tf
-import multiprocessing as mp
+import pathos.multiprocessing as mp
 
 from typing import Callable, Tuple
 

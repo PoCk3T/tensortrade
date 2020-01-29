@@ -3,7 +3,7 @@ import uuid
 import numpy as np
 
 from typing import Callable
-from multiprocessing import Process, Queue
+from pathos.multiprocessing import Process, Queue
 
 
 class ParallelDQNTrainer(Process):
