@@ -3,4 +3,4 @@ pandas==0.25.0
 gym==0.14.0
 pyyaml==5.1.2
 sympy==1.4
-pathos==0.2.6.dev0
+pathos==0.2.5
